@@ -546,6 +546,7 @@ class plot_title(themeable):
             text = figure._themeable['plot_title']
             text.set_visible(False)
 
+
 class caption(themeable):
     """
     Plot caption
