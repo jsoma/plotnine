@@ -611,7 +611,6 @@ class ggplot:
         # finally has a constraint based layout manager.
         figure = self.figure
         caption = self.labels.get('caption', '')
-        rcParams = self.theme.rcParams
         get_property = self.theme.themeables.property
 
         # Pick suitable values in inches and convert them to
